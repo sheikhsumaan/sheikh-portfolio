@@ -1,3 +1,8 @@
+document.addEventListener("DOMContentLoaded", function() {
+    var navigationDiv = document.querySelector('#navigation');
+    if (navigationDiv) {
+      navigationDiv.style.display = 'none'; // Hide the navigation div
+    }})
 var btn=document.getElementById('cal');
 var m=document.getElementById('first');
 var er=document.getElementById('second');
@@ -232,4 +237,26 @@ cal.addEventListener('click',function(event) {
 
     
 });
+var menuButton = document.querySelector(".MENUU");
+menuButton.addEventListener('click', function() {
+    var navigation= document.querySelector('#navigation');
+    if (navigation.style.display === 'none') {
+      navigation.style.display = 'block'; // Show the navigation div
+    } else {
+      navigation.style.display = 'none'; // Hide the navigation div
+    }
+  });
+  var close=document.querySelector('.close');
+  close.addEventListener('click',function(){
+    var navigation= document.querySelector('#navigation');
+    if(navigation.style.display === 'block'){
+        navigation.style.display = 'none';
+    }
+    else{
+        navigation.style.display = 'block';
+    }
+  })
+
+
+
     
