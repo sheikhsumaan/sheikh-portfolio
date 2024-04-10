@@ -1,0 +1,58 @@
+h1{
+    color: blue;
+}
+.CPGA{
+    font-family:"Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    font-family:"Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    padding: 1px;
+}
+label{
+    color: white;
+    text-align: center;
+}
+option{
+    text-align: center;
+}
+.theResult{
+    color: #8e2078;
+    margin-top: 20px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#navigation{
+    background-color: #8e2078e2;
+    z-index: 99;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+}
+.content{
+
+    flex-direction: column;
+    font-family: poppins,sans-serif;
+a{
+    text-decoration: none;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-style: normal;
+}
+}
